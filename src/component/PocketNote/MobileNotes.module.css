@@ -1,0 +1,75 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: #e8e8e8;
+}
+.heading {
+  display: flex;
+  height: 10vh;
+  justify-content: start;
+  align-items: center;
+  & img {
+    margin-inline: 1.5vh;
+    height: 2vh;
+  }
+  & .displayname {
+    height: 7vh;
+    width: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    & h2 {
+      color: #fff;
+      font-family: Roboto;
+      font-size: 4vh;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 97.688%; /* 16.412px */
+      letter-spacing: 0.336px;
+    }
+  }
+}
+.title {
+  margin-left: 2vh;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16.72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.334px;
+}
+.noterack {
+  background-color: #f7ecdc;
+  height: 65vh;
+  overflow-y: auto;
+  padding-bottom: 1vh;
+}
+.textarea {
+  height: 24vh;
+  position: relative;
+  & img{
+    position: absolute;
+    bottom: 3vh;
+    right:3vh;
+    height: 3vh;
+  }
+}
+textarea {
+  margin-block: 2vh;
+  margin-inline: 2vh;
+  border-radius: 1vh;
+  padding: 1vh;
+  height: 18vh;
+  width: 86vw;
+  border:none;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 17.706px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.354px;
+  outline: none;
+}

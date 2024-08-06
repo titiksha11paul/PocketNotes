@@ -1,0 +1,42 @@
+.tile {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin-top: 1.5vh;
+  padding: 2vh;
+  border-radius: 32px 0px 0px 32px;
+
+}
+.selectedtile{
+  background-color: #F7ECDC;;
+}
+.shorthand {
+  border-radius: 100%;
+  width: 8.5vh;
+  height: 8.5vh;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 97.688%; /* 23.558px */
+    letter-spacing: 0.482px;
+  }
+}
+.noteheading {
+    margin-left: 2vh;
+  & h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20.67px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.413px;
+  }
+}
